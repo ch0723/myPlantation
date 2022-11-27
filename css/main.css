@@ -1,50 +1,18 @@
 /* h1, h2, h3, h4, h5, h6, a, p, li, button
 {
     font-family: 'Noto Serif TC', serif;
-} */
+}
 
 .bg
 {
     height: 100vh;
     max-width: 100%;
-    /* background-image: 
+    background-image: 
     linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url('../img/IMG_0203.jpeg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
-    position: relative;
-}
-
-.banner
-{
-    position: absolute;
-    color: white;
-    bottom: 0;
-    left: auto;
-}
-
-.navlink
-{
-    color: white;
-}
-
-.navicon > i
-{
-    color: white;
-    font-size: 1.6rem;
-}
-
-.newsCard
-{
-    background-image: url('../img/IMG_0203.jpeg'); 
-    background-size: cover; 
-    background-position: center; 
     background-repeat: no-repeat;
-}
-
-.newsCard:hover
-{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
 }
 
 .prodlink > a
@@ -94,4 +62,20 @@
 .prodCcnt > .row > .col > i
 {
     font-size: 1.4rem;
+} */
+
+.custCarousel
+{
+    position: relative;
+    text-align: center;
+}
+
+.custHeader
+{
+    position: absolute;
+    top: 0;
+    right : 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
 }
