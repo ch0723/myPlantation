@@ -1,3 +1,15 @@
+/* global */
+.custBtn {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 6px;
+    background-color: #227D51;
+    border-radius: 50px;
+    margin-top: 15px;
+    padding: 12px 12px 12px 12px;
+}
+
 /* header&carousel */
 .custHeader {
     max-width: 1140px;
@@ -56,18 +68,7 @@
     letter-spacing: 5px;
 }
 
-.custCarousel>.carouselContent>.cBtn {
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-    letter-spacing: 6px;
-    background-color: #227D51;
-    border-radius: 50px;
-    margin-top: 15px;
-    padding: 12px 12px 12px 12px;
-}
-
-.custCarousel>.carouselContent>.cBtn:hover {
+.custCarousel>.carouselContent>.custBtn:hover {
     scale: 1.13;
 }
 
@@ -77,11 +78,21 @@
 
 /* about */
 .custAbout {
+    text-align: center;
     margin-top: 120px;
+}
+
+.custAbout>.row {
+    text-align: left;
+    font-size: large;
 }
 
 .custAbout>.caRow1 {
     margin-bottom: 120px;
+}
+
+.custAbout>.custBtn {
+    margin: 0 auto;
 }
 
 .custAbout>.caRow1>.col {
@@ -143,7 +154,6 @@
 .custAbout>.caRow1>.col>.caImgBlock1>.row>.col>p {
     padding-top: 8px;
     margin: 0 auto;
-    font-size: large;
 }
 
 .custAbout>.caRow2>.col1>.caImgBlock2 {
@@ -171,7 +181,7 @@
     position: absolute;
 }
 
-.custAbout>.caRow2>.col2>.row> {
+.custAbout>.caRow2>.col2>.row {
     margin-bottom: 50px;
 }
 
