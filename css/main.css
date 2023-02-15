@@ -1,6 +1,12 @@
 /* global */
 .custContainer {
+    text-align: center;
     margin-top: 120px;
+}
+
+.custContainer>.row {
+    text-align: left;
+    font-size: large;
 }
 
 .custBtn {
@@ -97,15 +103,6 @@
 }
 
 /* about */
-.custAbout {
-    text-align: center;
-}
-
-.custAbout>.row {
-    text-align: left;
-    font-size: large;
-}
-
 .custAbout>.caRow1 {
     margin-bottom: 120px;
 }
@@ -192,4 +189,10 @@
     padding: 28px 28px 28px 28px;
     border-radius: 10px;
     background-color: #227D51;
+}
+
+/* product */
+.custProduct>.prRow1>.col2 {
+    align-self: flex-end;
+    text-align: right;
 }
