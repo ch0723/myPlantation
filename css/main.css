@@ -17,6 +17,7 @@
     background-color: #227D51;
     border-radius: 50px;
     margin-top: 15px;
+    margin-bottom: 25px;
     padding: 12px 12px 12px 12px;
 }
 
@@ -195,4 +196,38 @@
 .custProduct>.prRow1>.col2 {
     align-self: flex-end;
     text-align: right;
+}
+
+.custProduct>.prRow1>.col2>a>svg {
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #227D51;
+}
+
+div.prCard {
+    border: 0px;
+    border-radius: 30px;
+}
+
+div.prCard>img {
+    height: 100%;
+    border-radius: 30px;
+}
+
+div.prCardContent {
+    color: white;
+    background-color: #227D51;
+    padding: 15px;
+    align-self: flex-end;
+    border-radius: 30px;
+}
+
+div.prCardContent>a {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    background-color: #B5495B;
 }
