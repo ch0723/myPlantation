@@ -21,7 +21,7 @@
     padding: 12px 12px 12px 12px;
 }
 
-.custContent>h1 {
+.custHeading>h1 {
     font-weight: bold;
     font-size: 45px;
     color: #227D51;
@@ -31,7 +31,7 @@
     margin-bottom: 15px;
 }
 
-.custContent>h2 {
+.custHeading>h2 {
     font-weight: bold;
     font-size: 35px;
     color: #227D51;
@@ -230,4 +230,13 @@ div.prCardContent>a {
     color: white;
     border-radius: 50%;
     background-color: #B5495B;
+}
+
+/* news */
+.custNews>.row>.col-4>img {
+    border-radius: 30px;
+}
+
+.custNews>.row>.col-8 {
+    align-self: center;
 }
