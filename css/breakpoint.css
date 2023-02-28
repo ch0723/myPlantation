@@ -1,9 +1,23 @@
-@media (max-width: 768px) {
-    nav {
-        display: block;
+@media (min-width: 0px) and (max-width: 991.98px) {
+
+    /* 手機&平板區塊 */
+    header.custHeader {
+        display: none;
     }
 
-    header {
+    nav.navbar {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* 桌機區塊 */
+    nav.navbar {
         display: none;
+    }
+
+    header.custHeader {
+        display: block;
     }
 }
