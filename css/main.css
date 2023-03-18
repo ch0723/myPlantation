@@ -16,7 +16,7 @@
     letter-spacing: 6px;
     background-color: #227D51;
     border-radius: 50px;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 25px;
     padding: 12px 12px 12px 12px;
 }
@@ -111,16 +111,12 @@ input[type=email] {
 
 /* about */
 .custAbout>.caRow1 {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .custAbout>.custBtn {
     margin: 0 auto;
 }
-
-/* .custAbout>.caRow1>.col {
-    margin-bottom: 15px;
-} */
 
 .custAbout>.caRow1>.col>.caImgBlock1 {
     position: relative;
@@ -145,18 +141,6 @@ input[type=email] {
     border-radius: 30px;
 }
 
-.custAbout>.caRow1>.col>.caImgBlock1>.row>.col>svg {
-    color: white;
-    padding: 25px 25px 25px 25px;
-    border-radius: 10px;
-    background-color: #227D51;
-}
-
-.custAbout>.caRow1>.col>.caImgBlock1>.row>.col>p {
-    padding-top: 8px;
-    margin: 0 auto;
-}
-
 .custAbout>.caRow2>.col1>.caImgBlock2 {
     position: relative;
 }
@@ -172,7 +156,7 @@ input[type=email] {
 
 .custAbout>.caRow2>.col1>.caImgBlock2::after {
     content: "";
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 30px;
     top: 0;
@@ -291,4 +275,16 @@ div.prCardContent>a {
 .custContact>.row>.col-12>.custForm>.form-floating {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+/* footer */
+.custFooter>footer {
+    display: flex;
+    justify-content: center;
+    background-color: #227D51;
+    padding: 40px 0px 30px 0px;
+}
+
+.custFooter>footer>div {
+    color: white;
 }
