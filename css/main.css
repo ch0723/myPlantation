@@ -69,9 +69,9 @@
 .BannerCont>div h2 {
     font-weight: bold;
     letter-spacing: 15px;
-    line-height: 150%;
+    line-height: 60px;
     color: white;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .BanImg1 {
@@ -85,32 +85,55 @@
     top: 15px;
 }
 
-.BanImg2 {
+.Play>p {
     position: absolute;
-    top: 45%;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    top: 37%;
     bottom: 0;
     right: 0;
-    left: 48.5%;
+    left: 0;
+}
+
+.Play>.PlayBtn {
+    position: absolute;
+    top: 47%;
+    bottom: 0;
+    right: 0;
+    left: 46.5%;
+    width: 90px;
+    height: 90px;
+    padding: 17px;
+    border-radius: 50px;
+    background-color: rgb(34, 125, 81);
+    color: white;
 }
 
 .Scroll {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 3;
     position: absolute;
-    width: 90px;
-    height: 90px;
-    border-radius: 50px;
-    background-color: rgb(34, 125, 81);
     font-weight: bold;
     color: white;
-    top: 20%;
+    top: 82%;
     bottom: 0;
-    right: 0;
-    left: 46%;
-    font-size: larger;
+    right: 25px;
+    left: 0;
+    font-size: 25px;
     letter-spacing: 4px;
     writing-mode: vertical-rl;
+}
+
+.Scroll::after {
+    content: "";
+    position: absolute;
+    height: 50%;
+    border-left: 2.5px solid #FFFFFF;
+    top: 50%;
+    bottom: 0;
+    right: 17px;
+    left: 100%;
 }
 
 .About {
