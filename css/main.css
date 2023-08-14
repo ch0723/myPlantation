@@ -40,18 +40,17 @@
 
 .Banner {
     position: relative;
-    background-image: url("https://img.onl/D6nFUF");
+    background-image: url("https://img.onl/Hpf3YX");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 .BannerCont {
     position: absolute;
     z-index: 3;
-    top: 40%;
+    top: 28%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -59,11 +58,11 @@
 }
 
 .BannerCont>div h1 {
-    font-size: 96px;
+    font-size: 86px;
     font-weight: bold;
     letter-spacing: 15px;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .BannerCont>div h2 {
@@ -71,14 +70,14 @@
     letter-spacing: 15px;
     line-height: 60px;
     color: white;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .BanImg1 {
     position: relative;
     top: 0;
     transition: top ease 0.8s;
-    width: 624px;
+    width: 580px;
 }
 
 .BanImg1:hover {
@@ -91,7 +90,7 @@
     font-weight: bold;
     color: white;
     font-size: 20px;
-    top: 37%;
+    top: 23%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -99,7 +98,7 @@
 
 .Play>.PlayBtn {
     position: absolute;
-    top: 47%;
+    top: 33%;
     bottom: 0;
     right: 0;
     left: 46.5%;
@@ -116,7 +115,7 @@
     position: absolute;
     font-weight: bold;
     color: white;
-    top: 82%;
+    top: 78%;
     bottom: 0;
     right: 25px;
     left: 0;
@@ -130,20 +129,31 @@
     position: absolute;
     height: 50%;
     border-left: 2.5px solid #FFFFFF;
-    top: 50%;
+    top: 60%;
     bottom: 0;
     right: 17px;
     left: 100%;
 }
 
 .About {
-    margin-top: 220px;
+    position: relative;
+    margin-top: 300px;
     margin-bottom: 200px;
     text-align: center;
 }
 
+.AboBg {
+    position: absolute;
+    background-image: url("https://img.onl/z86v9X");
+    height: 1080px;
+    top: -10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 .About>div h1 {
-    font-size: 96px;
+    font-size: 76px;
     font-weight: bold;
     letter-spacing: 15px;
     color: rgb(34, 125, 81);
@@ -151,7 +161,7 @@
 }
 
 .About>div h3 {
-    font-size: 64px;
+    font-size: 36px;
     font-weight: bold;
     letter-spacing: 8px;
     color: rgb(34, 125, 81);
@@ -159,30 +169,14 @@
 }
 
 .AboText1 {
-    font-size: 32px;
+    font-size: 25px;
     text-align: left;
 }
 
 .AboText2 {
-    margin-top: 20px;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 15px;
     text-align: center;
-}
-
-.AboImg1 {
-    position: relative;
-    background-image: url("https://img.onl/XMWa8N");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.AboImg2-1 {
-    position: absolute;
-    z-index: 2;
-    top: 30%;
 }
 
 .Product>div h1 {
