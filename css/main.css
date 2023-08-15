@@ -91,7 +91,7 @@
     font-weight: bold;
     color: white;
     font-size: 20px;
-    top: 23%;
+    top: 30%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -99,7 +99,7 @@
 
 .Play>.PlayBtn {
     position: absolute;
-    top: 33%;
+    top: 40%;
     bottom: 0;
     right: 0;
     left: 46.5%;
@@ -139,7 +139,7 @@
 .About {
     position: relative;
     margin-top: 300px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -183,11 +183,60 @@
     text-align: center;
 }
 
+.More>p {
+    z-index: 2;
+    position: absolute;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    top: 72%;
+    bottom: 0;
+    right: 0;
+    left: 33.5%;
+}
+
+.More>.MoreBtn {
+    z-index: 2;
+    position: absolute;
+    top: 78%;
+    bottom: 0;
+    right: 0;
+    left: 63.5%;
+    width: 90px;
+    height: 90px;
+    padding: 17px;
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(34, 125, 81);
+}
+
 .Gradients {
     background: -webkit-linear-gradient(left, rgb(34, 125, 81), white);
     background: -o-linear-gradient(right, rgb(34, 125, 81), white);
     background: -moz-linear-gradient(right, rgb(34, 125, 81), white);
     background: linear-gradient(to right, rgb(34, 125, 81), white);
+}
+
+.GradientsCont {
+    z-index: 2;
+    margin-top: 100px;
+    text-align: left;
+    padding: 15px;
+}
+
+.Gradients>.GradientsCont>h1 {
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Gradients>.GradientsCont>p {
+    line-height: 36px;
+    font-size: 18px;
+    color: white;
 }
 
 .Product>div h1 {
