@@ -40,7 +40,7 @@
 
 .Banner {
     position: relative;
-    background-image: url("https://img.onl/Hpf3YX");
+    background-image: url("https://img.onl/nxP9n");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@
 }
 
 .BannerCont>div h1 {
-    font-size: 86px;
+    font-size: 74px;
     font-weight: bold;
     letter-spacing: 15px;
     color: white;
@@ -66,6 +66,7 @@
 }
 
 .BannerCont>div h2 {
+    font-size: 34px;
     font-weight: bold;
     letter-spacing: 15px;
     line-height: 60px;
@@ -146,14 +147,14 @@
     position: absolute;
     background-image: url("https://img.onl/z86v9X");
     height: 1080px;
-    top: -10%;
+    top: -16%;
     right: 0;
     left: 0;
     bottom: 0;
 }
 
 .About>div h1 {
-    font-size: 76px;
+    font-size: 64px;
     font-weight: bold;
     letter-spacing: 15px;
     color: rgb(34, 125, 81);
@@ -161,7 +162,7 @@
 }
 
 .About>div h3 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     letter-spacing: 8px;
     color: rgb(34, 125, 81);
@@ -169,14 +170,24 @@
 }
 
 .AboText1 {
-    font-size: 25px;
+    padding-top: 15px;
+    line-height: 36px;
+    font-size: 18px;
     text-align: left;
 }
 
 .AboText2 {
-    font-size: 20px;
+    line-height: 36px;
+    font-size: 18px;
     padding: 15px;
     text-align: center;
+}
+
+.Gradients {
+    background: -webkit-linear-gradient(left, rgb(34, 125, 81), white);
+    background: -o-linear-gradient(right, rgb(34, 125, 81), white);
+    background: -moz-linear-gradient(right, rgb(34, 125, 81), white);
+    background: linear-gradient(to right, rgb(34, 125, 81), white);
 }
 
 .Product>div h1 {
