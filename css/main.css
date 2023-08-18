@@ -1,6 +1,6 @@
 .Btn {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     letter-spacing: 3px;
     background-color: rgb(34, 125, 81);
@@ -10,7 +10,7 @@
 
 .BtnLink {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(34, 125, 81);
     letter-spacing: 3px;
     text-decoration: none;
@@ -65,7 +65,7 @@
     margin-bottom: 25px;
 }
 
-.BannerCont>div h2 {
+.BannerCont>div h6 {
     font-size: 34px;
     font-weight: bold;
     letter-spacing: 15px;
@@ -90,7 +90,7 @@
     letter-spacing: 2.5px;
     font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     top: 30%;
     bottom: 0;
     right: 0;
@@ -153,19 +153,19 @@
 }
 
 .About>div h1 {
-    font-size: 64px;
+    font-size: 58px;
     font-weight: bold;
     letter-spacing: 10px;
     color: rgb(34, 125, 81);
     margin-bottom: 40px;
 }
 
-.About>div h3 {
-    font-size: 32px;
+.About>div h6 {
+    font-size: 34px;
     font-weight: bold;
     letter-spacing: 3px;
     color: rgb(34, 125, 81);
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .AboText1 {
@@ -188,8 +188,8 @@
     letter-spacing: 2.5px;
     font-weight: bold;
     color: white;
-    font-size: 20px;
-    top: 74%;
+    font-size: 18px;
+    top: 77%;
     right: 0;
     left: 33.5%;
 }
@@ -197,13 +197,13 @@
 .More>.MoreBtn {
     z-index: 2;
     position: absolute;
-    top: 78%;
+    top: 83%;
     bottom: 0;
     right: 0;
     left: 65%;
-    width: 90px;
-    height: 90px;
-    padding: 17px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
     border-radius: 50px;
     background-color: white;
     color: rgb(34, 125, 81);
@@ -223,16 +223,16 @@
 }
 
 .AboPic>.AboPicCont>h1 {
-    font-size: 64px;
+    font-size: 58px;
     font-weight: bold;
     letter-spacing: 10px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .AboPic>.AboPicCont>p {
     line-height: 36px;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
 }
 
@@ -248,7 +248,7 @@
 }
 
 .Product>div h1 {
-    font-size: 64px;
+    font-size: 58px;
     font-weight: bold;
     letter-spacing: 10px;
     color: rgb(34, 125, 81);
@@ -289,115 +289,82 @@
     padding: 0;
 }
 
-.ProdAD {
-    height: 1080px;
-    background: -webkit-linear-gradient(left, #B81A18, white);
-    background: -o-linear-gradient(right, #B81A18, white);
-    background: -moz-linear-gradient(right, #B81A18, white);
-    background: linear-gradient(to right, #B81A18, white);
+.ProdADBg {
+    position: relative;
+    background-image: url("https://img.onl/KgIkWj");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
 }
 
-.ProdAD>div h1 {
-    font-size: 64px;
+.ProdADCont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ProdADCont>div h1 {
+    font-size: 58px;
     font-weight: bold;
     letter-spacing: 10px;
     color: white;
 }
 
-.ProdAD>div p {
-    color: white;
+.ProdADCont>div p {
     line-height: 36px;
     font-size: 22px;
-}
-
-.ProdAD>div button {
-    font-weight: bold;
-    font-size: 25px;
-    color: #B81A18;
-    letter-spacing: 3px;
-    background-color: white;
-    border-radius: 50px;
-    padding: 12px 15px 12px 15px;
-}
-
-.ADBg {
-    background-image: url("https://img.onl/wmzd0");
-    height: 1080px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: white;
 }
 
 .News {
     position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.NewsCont {
-    position: absolute;
-    top: 50%;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    text-align: center;
-    z-index: 2;
-}
-
-.NewsCont>a>svg {
-    padding: 15px;
-    width: 64px;
-    height: 64px;
-    background-color: rgb(34, 125, 81);
-    border: 0;
-    border-radius: 50px;
-    color: white;
-}
-
-#carouselNews>div img {
+.carouselNews>div img {
     opacity: 0.6;
 }
 
-.carouselNewsCapt {
-    position: absolute;
-    top: 55%;
-    bottom: 0;
-    right: 0;
-    left: 0;
+.NewCont {
     text-align: center;
-    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.carouselNewsCapt>div h3 {
-    font-size: 64px;
+.NewCont>div h2 {
+    font-size: 48px;
     font-weight: bold;
     letter-spacing: 8px;
     color: rgb(34, 125, 81);
 }
 
-.carouselNewsCapt>div hr {
-    opacity: 100;
-    width: 100%;
-    height: 2.5px;
-    color: rgb(34, 125, 81);
-    background-color: rgb(34, 125, 81);
-}
-
-.carouselNewsCapt>div p {
+.NewCont>p {
     color: black;
-    font-size: 30px;
-    text-align: left;
+    font-size: 22px;
+    line-height: 36px;
 }
 
-.carouselNewsCapt>div button {
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-    letter-spacing: 3px;
+.NewsControl {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -92%);
+    text-align: center;
+}
+
+.NewsControl>a>svg {
+    position: relative;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
     background-color: rgb(34, 125, 81);
+    border: 0;
     border-radius: 50px;
-    padding: 12px 15px 12px 15px;
+    color: white;
 }
 
 .Footer {
