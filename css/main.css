@@ -170,7 +170,7 @@
 
 .AboText1 {
     padding-top: 15px;
-    line-height: 36px;
+    line-height: 40px;
     font-size: 22px;
     text-align: left;
 }
@@ -231,7 +231,7 @@
 }
 
 .AboPic>.AboPicCont>p {
-    line-height: 36px;
+    line-height: 40px;
     font-size: 22px;
     color: white;
 }
