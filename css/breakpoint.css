@@ -1,6 +1,11 @@
 /* 手機 & 平板 */
 @media (min-width: 0px) and (max-width: 991.98px) {
 
+    .Btn {
+        font-size: 20px;
+    }
+
+
     .BannerCont {
         display: none;
     }
@@ -64,6 +69,64 @@
     .Scroll {
         right: 45%;
         font-size: 20px;
+    }
+
+
+    .About {
+        margin-top: 130px;
+    }
+
+    .AboBg {
+        height: 1000px;
+        top: -5%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .About>div h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .AboImg1 {
+        height: 100px;
+        margin-top: 1.5rem;
+    }
+
+    .About>div h6 {
+        font-size: 24px;
+    }
+
+    .AboText1 {
+        margin: 0;
+        padding-top: 0;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .AboPic {
+        background: -webkit-linear-gradient(bottom, rgb(34, 125, 81), white);
+        background: -o-linear-gradient(bottom, rgb(34, 125, 81), white);
+        background: -moz-linear-gradient(bottom, rgb(34, 125, 81), white);
+        background: linear-gradient(to bottom, rgb(34, 125, 81), white);
+    }
+
+    .More>p {
+        top: 38%;
+        left: 75%;
+    }
+
+    .More>.MoreBtn {
+        top: 45%;
+        left: 78%;
+    }
+
+    .AboPic>.AboPicCont>h1 {
+        font-size: 32px;
     }
 }
 
