@@ -1,5 +1,76 @@
 /* 手機 & 平板 */
-@media (min-width: 0px) and (max-width: 991.98px) {}
+@media (min-width: 0px) and (max-width: 991.98px) {
+
+    .BannerCont {
+        display: none;
+    }
+
+    .mobileBC {
+        display: block;
+    }
+
+    .mobileBC {
+        position: absolute;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .mobileBC>div h1 {
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 10px;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    .mobileBC>div .BanImg1 {
+        position: relative;
+        top: 0;
+        transition: top ease 0.8s;
+    }
+
+    .mobileBC>div .BanImg1:hover {
+        top: 15px;
+    }
+
+    .mobileBC>.Play>p {
+        position: absolute;
+        letter-spacing: 2.5px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        top: 30%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .mobileBC>div .PlayBtn {
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -63%);
+        width: 90px;
+        height: 90px;
+        padding: 17px;
+        border-radius: 50px;
+        background-color: rgb(34, 125, 81);
+        color: white;
+    }
+
+    .Scroll {
+        right: 45%;
+        font-size: 20px;
+    }
+}
 
 /* 桌機 */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+    .mobileBC {
+        display: none;
+    }
+}
