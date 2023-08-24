@@ -5,72 +5,25 @@
         font-size: 20px;
     }
 
+    .BannerCont>div h1 {
+        font-size: 38px;
+        letter-spacing: 10px;
+    }
 
-    .BannerCont {
+    .BannerCont>div h6 {
         display: none;
     }
 
-    .mobileBC {
-        display: block;
-    }
-
-    .mobileBC {
-        position: absolute;
-        z-index: 3;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    .mobileBC>div h1 {
-        font-size: 42px;
-        font-weight: bold;
-        letter-spacing: 10px;
-        color: white;
-        margin-bottom: 25px;
-    }
-
-    .mobileBC>div .BanImg1 {
-        position: relative;
-        top: 0;
-        transition: top ease 0.8s;
-    }
-
-    .mobileBC>div .BanImg1:hover {
-        top: 15px;
-    }
-
-    .mobileBC>.Play>p {
-        position: absolute;
-        letter-spacing: 2.5px;
-        font-weight: bold;
-        color: white;
-        font-size: 18px;
-        top: 30%;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .mobileBC>div .PlayBtn {
-        position: absolute;
+    .Play>.PlayBtn {
         top: 63%;
         left: 50%;
         transform: translate(-50%, -63%);
-        width: 90px;
-        height: 90px;
-        padding: 17px;
-        border-radius: 50px;
-        background-color: rgb(34, 125, 81);
-        color: white;
     }
 
     .Scroll {
         right: 45%;
         font-size: 20px;
     }
-
 
     .About {
         margin-top: 130px;
@@ -95,6 +48,10 @@
     .AboImg1 {
         height: 100px;
         margin-top: 1.5rem;
+    }
+
+    .AboImg2 {
+        padding: 15px;
     }
 
     .About>div h6 {
@@ -128,12 +85,60 @@
     .AboPic>.AboPicCont>h1 {
         font-size: 32px;
     }
+
+    .ProdBgImg1-2 {
+        height: 150px;
+        bottom: -3%;
+    }
+
+    .Product>div h1 {
+        font-size: 32px;
+        margin-top: 48px;
+    }
+
+    .ProdText1 {
+        margin-top: 10px;
+    }
+
+    .ProdADCont>div h1 {
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+
+    .mobileCaNews {
+        display: block;
+        text-align: center;
+    }
+
+    .mobileCaNews>div h2 {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 8px;
+        color: rgb(34, 125, 81);
+    }
+
+    .mobileCaNews>div p {
+        padding: 15px;
+        line-height: 30px;
+    }
+
+    .carouselNews {
+        display: none;
+    }
+
+    .NewsControl {
+        display: none;
+    }
 }
 
 /* 桌機 */
 @media (min-width: 992px) {
 
     .mobileBC {
+        display: none;
+    }
+
+    .mobileCaNews {
         display: none;
     }
 }
