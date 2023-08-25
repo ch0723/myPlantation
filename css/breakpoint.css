@@ -134,11 +134,11 @@
 /* 桌機 */
 @media (min-width: 992px) {
 
-    .mobileBC {
+    .mobileCaNews {
         display: none;
     }
 
-    .mobileCaNews {
-        display: none;
+    .AboImg2 {
+        width: 55%;
     }
 }
