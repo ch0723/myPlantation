@@ -1,20 +1,35 @@
 /* 手機 & 平板 */
 @media (min-width: 0px) and (max-width: 991.98px) {
 
+    .BannerCont>div h6 {
+        display: none;
+    }
+
+    .carouselNews {
+        display: none;
+    }
+
+    .NewsControl {
+        display: none;
+    }
+
     .Btn {
         font-size: 20px;
     }
 
     .BannerCont>div h1 {
-        font-size: 38px;
+        font-size: 36px;
         letter-spacing: 10px;
     }
 
-    .BannerCont>div h6 {
-        display: none;
+    .BanImg1 {
+        width: 86%;
     }
 
     .Play>.PlayBtn {
+        width: 72px;
+        height: 72px;
+        padding: 15px;
         top: 63%;
         left: 50%;
         transform: translate(-50%, -63%);
@@ -30,7 +45,7 @@
     }
 
     .AboBg {
-        height: 1000px;
+        height: 780px;
         top: -5%;
         right: 0;
         left: 0;
@@ -59,6 +74,8 @@
     }
 
     .AboText1 {
+        font-size: 18px;
+        line-height: 36px;
         margin: 0;
         padding-top: 0;
         padding: 15px;
@@ -86,6 +103,11 @@
         font-size: 32px;
     }
 
+    .AboPic>.AboPicCont>p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
     .ProdBgImg1-2 {
         height: 150px;
         bottom: -3%;
@@ -97,12 +119,28 @@
     }
 
     .ProdText1 {
+        font-size: 18px;
+        line-height: 36px;
         margin-top: 10px;
+    }
+
+    .ProdsImg {
+        height: 180px;
+    }
+
+    .ProdsTex {
+        font-size: 16px;
+        line-height: 30px;
     }
 
     .ProdADCont>div h1 {
         font-size: 32px;
         letter-spacing: 5px;
+    }
+
+    .ProdADCont>div p {
+        font-size: 18px;
+        line-height: 36px;
     }
 
     .mobileCaNews {
@@ -119,15 +157,8 @@
 
     .mobileCaNews>div p {
         padding: 15px;
-        line-height: 30px;
-    }
-
-    .carouselNews {
-        display: none;
-    }
-
-    .NewsControl {
-        display: none;
+        font-size: 18px;
+        line-height: 36px;
     }
 }
 
@@ -139,6 +170,6 @@
     }
 
     .AboImg2 {
-        width: 55%;
+        width: 45%;
     }
 }
