@@ -17,6 +17,14 @@
         font-size: 20px;
     }
 
+    .logo {
+        width: 34px;
+    }
+
+    .Navbar {
+        padding: 8px 8px 8px 8px;
+    }
+
     .BannerCont>div h1 {
         font-size: 36px;
         letter-spacing: 10px;
@@ -24,6 +32,10 @@
 
     .BanImg1 {
         width: 86%;
+    }
+
+    .Play>p {
+        font-size: 16px;
     }
 
     .Play>.PlayBtn {
@@ -90,12 +102,13 @@
     }
 
     .More>p {
-        top: 38%;
+        font-size: 16px;
+        top: 42%;
         left: 75%;
     }
 
     .More>.MoreBtn {
-        top: 45%;
+        top: 48%;
         left: 78%;
     }
 
