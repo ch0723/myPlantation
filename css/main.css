@@ -116,9 +116,9 @@
     left: 46.5%;
     width: 90px;
     height: 90px;
-    padding: 17px;
     border-radius: 50px;
     background-color: rgb(34, 125, 81);
+    border-color: rgb(34, 125, 81);
     color: white;
 }
 
