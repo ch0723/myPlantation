@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
 
 <head>
     <meta charset="utf-8">
@@ -9,13 +9,14 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/Forindex.css" rel="stylesheet">
     <link href="css/breakpoint.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="Navbar navbar fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img class="logo" src="https://img.onl/qI39AX" width="38">
             </a>
             <button class="NavTog navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -25,19 +26,19 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <a href="#"><img src="https://img.onl/qI39AX" width="28"></a>
+                    <a href="index.html"><img src="https://img.onl/qI39AX" width="28"></a>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#About">關於天境</a>
+                            <a class="nav-link active" href="index.html#About">關於天境</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Product">推薦給您</a>
+                            <a class="nav-link" href="index.html#Product">推薦給您</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#News">消息快報</a>
+                            <a class="nav-link" href="index.html#News">消息快報</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -236,8 +237,17 @@
             <div class="row row-cols-2 row-cols-md-3 row-cols-xl-3">
                 <div class="col p-3">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="ProdsImgCont col-12">
                             <img src="https://img.onl/4BsL1Q" class="ProdsImg img-fluid">
+                            <a type="button" class="EnterBtn btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                                    <path fill-rule="evenodd"
+                                        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                                </svg>
+                            </a>
                         </div>
                         <div class="col-12">
                             <h2 class="ProdsTit">精選春茶</h2>
@@ -245,15 +255,21 @@
                         <div class="col-12">
                             <p class="ProdsTex">自用送禮相當合適，泡杯好茶陪伴您一整天...</p>
                         </div>
-                        <div class="col-12">
-                            <button type="button" class="ProdsLink btn btn-link">查看商品</button>
-                        </div>
                     </div>
                 </div>
                 <div class="col p-3">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="ProdsImgCont col-12">
                             <img src="https://img.onl/z9EsAQ" class="ProdsImg img-fluid">
+                            <a type="button" class="EnterBtn btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                                    <path fill-rule="evenodd"
+                                        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                                </svg>
+                            </a>
                         </div>
                         <div class="col-12">
                             <h2 class="ProdsTit">特級冬茶</h2>
@@ -261,15 +277,21 @@
                         <div class="col-12">
                             <p class="ProdsTex">自用送禮相當合適，泡杯好茶陪伴您一整天...</p>
                         </div>
-                        <div class="col-12">
-                            <button type="button" class="ProdsLink btn btn-link">查看商品</button>
-                        </div>
                     </div>
                 </div>
                 <div class="col p-3">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="ProdsImgCont col-12">
                             <img src="https://img.onl/Arvnb" class="ProdsImg img-fluid">
+                            <a type="button" class="EnterBtn btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                                    <path fill-rule="evenodd"
+                                        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                                </svg>
+                            </a>
                         </div>
                         <div class="col-12">
                             <h2 class="ProdsTit">特選茶包<span class="p-1" style="font-size: 16px;">10入</span></h2>
@@ -277,14 +299,11 @@
                         <div class="col-12">
                             <p class="ProdsTex">自用送禮相當合適，泡杯好茶陪伴您一整天...</p>
                         </div>
-                        <div class="col-12">
-                            <button type="button" class="ProdsLink btn btn-link">查看商品</button>
-                        </div>
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <button type="button" class="Btn btn mt-5">更多商品</button>
+                <button type="button" class="Btn btn mt-3">更多商品</button>
             </div>
         </div>
         <!-- 蘋果AD -->
