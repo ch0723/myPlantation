@@ -173,6 +173,16 @@
         font-size: 18px;
         line-height: 36px;
     }
+
+    /* Product_item */
+    .CoverCont>div h1 {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .PrItem {
+        margin-top: 100px;
+    }
 }
 
 /* 桌機 */

@@ -1,0 +1,51 @@
+h1,
+h2,
+h5 {
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+.CoverBg {
+    position: relative;
+    background-image: url("https://img.onl/tclSG8");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CoverCont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.CoverCont>div h1 {
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.PrItem {
+    margin-top: 180px;
+}
+
+.PrItemCont1>span {
+    font-size: 14px;
+}
+
+.BuyBtn {
+    background-color: rgb(34, 125, 81);
+    color: white;
+}
+
+.PrItemCont2>div p {
+    margin: 0;
+}
+
+.PrDescCont>div p {
+    line-height: 32px;
+    text-align: justify;
+}
